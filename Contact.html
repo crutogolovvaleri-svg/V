@@ -93,19 +93,25 @@
     </div>
 
     <div style="display:contents">
-      <div class="contact-form-wrap">
-        <p class="contact-form-title">Trimite-ne un mesaj</p>
-        <div class="contact-form">
-          <input type="text" placeholder="Nume complet"/>
-          <input type="email" placeholder="Email"/>
-          <input type="text" placeholder="Subiect"/>
-          <textarea placeholder="Mesajul tău"></textarea>
-          <button class="btn-send">Trimite mesajul</button>
-        </div>
-      </div>
-    </div>
+      <form class="contact-form" 
+      action="https://api.sheetmonkey.io/form/k8sJ87FzgAeQyQXTP3Dx7m" 
+      method="POST">
 
-  </div>
+        <input type="text" name="Nume" placeholder="Nume complet" required/>
+
+        <input type="email" name="Email" placeholder="Email" required/>
+
+        <input type="text" name="Subiect" placeholder="Subiect" required/>
+
+        <textarea name="Mesaj" placeholder="Mesajul tău" required></textarea>
+
+        <button type="submit" class="btn-send">
+          Trimite mesajul
+        </button>
+
+      </form>
+
+    </div>
 </section>
 
 <section class="map-section">
