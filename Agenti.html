@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agenți – Casa mea Cahul</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/agenti.css"/>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">
+    <img src="images/logo.png" alt="Casa Mea Cahul" class="logo-img"
+         onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+    <span class="logo-text" style="display:none">Casa mea <span>Cahul</span></span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Deschide meniul" aria-expanded="false" aria-controls="navLinks">
+    <span></span><span></span><span></span>
+  </button>
+
+  <ul class="nav-links" id="navLinks">
+    <li class="mobile-search-row">
+      <div class="nav-search">
+        <input type="text" id="navSearchInputMobile" placeholder="Caută..." autocomplete="off"/>
+        <svg id="navSearchIconMobile" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+      </div>
+    </li>
+    <li><a href="index.html">Acasă</a></li>
+    <li><a href="Anunturi.html">Anunțuri</a></li>
+    <li><a href="Cautare.html">Căutare</a></li>
+    <li><a href="Agenti.html" class="active">Agenți</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+
+  <div class="nav-search" id="desktopSearch">
+    <input type="text" id="navSearchInput" placeholder="Caută..." autocomplete="off"/>
+    <svg id="navSearchIcon" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1 class="page-title">Echipa noastră</h1>
+  <p class="page-subtitle">Profesioniști dedicați care te vor ajuta să găsești proprietatea potrivită.</p>
+  <p class="breadcrumb"><a href="index.html">Acasă</a> / Agenți</p>
+</div>
+
+<section class="agents-section">
+  <div class="agents-wrap">
+    <div class="agents-grid">
+
+      <div class="agent-card">
+        <img
+          src="https://images.openai.com/static-rsc-4/UWmot-dSeq2aRV2UClUdpsbhlRYYZjnyiUcA-Mi5lPuiOIwoOFkP2A2g86u36DBJUfvKU3UrWbRWF0unYanW1ByJcJMnA8Ipd-svt_14KqEB8A_zV8KtSfhbRtf9F_0xdvBKPoqh_vbBEX15GIgNhzzQhG1quSEKdBY62qp-BT40JTvI4oLeJW9WkNqfPDQT?purpose=fullsize"
+          alt="Maria Popescu"
+        />
+        <div class="agent-card-body">
+          <p class="agent-name">Maria Popescu</p>
+          <p class="agent-role">Agent imobiliar</p>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            +373 600 00 111
+          </div>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            mpopescu@gmail.com
+          </div>
+          <a href="Contact.html" class="btn-contact">Contactează</a>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <img
+          src="https://images.openai.com/static-rsc-4/976gd8ws0gBlMRMrPc1-Len4TmBuObhtoTrkPxH4TX0iHSakI_vcfP8W-g3mcHPruysAxGa7HSQGdbgUz3JySgcdCXOEtml1HSxDP82ZcKkEARCAQyiRoljB7X1WyDjmfB5bcaxmGscVHLgocsmSHp3fOwwiW9O8euXHhnHuJWFQxmY-aJcUTMoHXNDNk-Ym?purpose=fullsize"
+          alt="Andrei Ionescu"
+        />
+        <div class="agent-card-body">
+          <p class="agent-name">Andrei Ionescu</p>
+          <p class="agent-role">Agent imobiliar</p>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            +373 600 00 222
+          </div>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            aionescru@gmail.com
+          </div>
+          <a href="Contact.html" class="btn-contact">Contactează</a>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <img
+          src="https://images.openai.com/static-rsc-4/JcJpnGx68f6F5_LyfcV5InhqpITRMR5UnxuSJm0uX19x_HI37PHwG26MfJr_CqgnMOoLQsljNCz90ayKuUPFCiEICMPAqGJblftCwoUBPScCLVmZXCXqs6N9Oy3H-UiB2nUmoXjkLLeZg1WNS3GXcKDvAFxSD_luoREKP-TDWvPbfvLa_s3ZT7ZKoW5xtGMm?purpose=fullsize"
+          alt="Elena Rusu"
+        />
+        <div class="agent-card-body">
+          <p class="agent-name">Elena Rusu</p>
+          <p class="agent-role">Agent imobiliar</p>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            +373 600 00 333
+          </div>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            erusu@gmail.com
+          </div>
+          <a href="Contact.html" class="btn-contact">Contactează</a>
+        </div>
+      </div>
+
+      <div class="agent-card">
+        <img
+          src="https://images.openai.com/static-rsc-4/5e8XLOGA_NutcoOCO-vECXPL_7ieIULu-RzO_oYoWx8I4EZQjGIQKEEdOSNuuY2FaC0BHE7k4DQDsJ1ijDp7dREYE_qSZTvEjyYLywSpqqSeFNE80c5j7OJ7viPWnro2vysSCfsiBuwpU8gkhLvhN8KLjUEKqHBKc0GXeagolDsXMzyIFqY4eJUir6IhswY6?purpose=fullsize"
+          alt="Vlad Balan"
+        />
+        <div class="agent-card-body">
+          <p class="agent-name">Vlad Balan</p>
+          <p class="agent-role">Manager</p>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            +373 600 00 444
+          </div>
+          <div class="agent-contact-item">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            vbalan@gmail.com
+          </div>
+          <a href="Contact.html" class="btn-contact">Contactează</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">
+    <p class="brand-name">Casa mea Cahul</p>
+    <p>Suntem o agenție imobiliară din Cahul care te ajută să găsești casa visurilor tale.</p>
+  </div>
+  <div class="footer-col">
+    <h4>Linkuri rapide:</h4>
+    <ul>
+      <li><a href="index.html">Acasă</a></li>
+      <li><a href="Anunturi.html">Anunțuri</a></li>
+      <li><a href="Cautare.html">Căutare</a></li>
+      <li><a href="Agenti.html">Agenți</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Servicii:</h4>
+    <ul>
+      <li><a href="#">Vânzări</a></li>
+      <li><a href="#">Cumpărări</a></li>
+      <li><a href="#">Închirieri</a></li>
+      <li><a href="#">Terenuri</a></li>
+      <li><a href="#">Consultanță</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Contact:</h4>
+    <div class="footer-contact-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+      </svg>
+      Str. Independenței 45, Cahul
+    </div>
+    <div class="footer-contact-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+      +373 600 00 000
+    </div>
+    <div class="footer-contact-item">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+        <polyline points="22,6 12,13 2,6"/>
+      </svg>
+      contact@casameacahul.md
+    </div>
+  </div>
+</footer>
+
+<script src="js/agenti.js"></script>
+</body>
+</html>
